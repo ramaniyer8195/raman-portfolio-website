@@ -1,0 +1,10 @@
+.info__list .info__title,
+.info__list .info__description,
+.info__list .info__separator {
+  font-size: var(--small-font-size);
+}
+
+.info__list .info__description {
+  color: var(--title-color);
+  font-weight: var(--weight-600);
+}
