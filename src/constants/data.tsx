@@ -113,14 +113,134 @@ export const STATS: Stats[] = [
 ];
 
 export const SKILLS: Skills = {
-  frontend: ["html", "javascript", "react", "redux", "reactRouter", "next"],
-  backend: ["node", "express", "jwt", "oauth"],
-  database: ["mysql", "mongo"],
-  devOps: ["git", "github", "gitlab", "githubActions", "docker"],
-  fullStack: ["rest", "graphQl", "axios", "webSockets", "typescript"],
-  componentLibraries: ["materialUi", "antDesign"],
-  testing: ["jest", "reactTestingLibrary", "cypress", "playwright"],
-  cssFramework: ["css", "bootstrap", "tailwind"],
+  frontend: [
+    {
+      logo: <i className="devicon-html5-plain-wordmark skill__logo-icon"></i>,
+      title: "HTML",
+    },
+    {
+      logo: <i className="devicon-css3-plain-wordmark skill__logo-icon"></i>,
+      title: "CSS",
+    },
+    {
+      logo: <i className="devicon-javascript-plain skill__logo-icon"></i>,
+      title: "Javascript",
+    },
+    {
+      logo: <i className="devicon-typescript-plain skill__logo-icon"></i>,
+      title: "Typescript",
+    },
+    {
+      logo: <i className="devicon-react-original skill__logo-icon"></i>,
+      title: "React",
+    },
+    {
+      logo: <i className="devicon-redux-original skill__logo-icon"></i>,
+      title: "Redux",
+    },
+    {
+      logo: <i className="devicon-reactrouter-plain skill__logo-icon"></i>,
+      title: "React Router",
+    },
+    {
+      logo: (
+        <i className="devicon-nextjs-original-wordmark skill__logo-icon"></i>
+      ),
+      title: "NextJs",
+    },
+    {
+      logo: <i className="devicon-graphql-plain skill__logo-icon"></i>,
+      title: "GraphQL",
+    },
+    {
+      logo: <i className="devicon-axios-plain skill__logo-icon"></i>,
+      title: "Axios",
+    },
+  ],
+  backend: [
+    {
+      logo: <i className="devicon-nodejs-plain-wordmark skill__logo-icon"></i>,
+      title: "NodeJs",
+    },
+    {
+      logo: (
+        <i className="devicon-express-original-wordmark skill__logo-icon"></i>
+      ),
+      title: "Express",
+    },
+    {
+      logo: <i className="devicon-oauth-plain skill__logo-icon"></i>,
+      title: "oAuth",
+    },
+  ],
+  database: [
+    {
+      logo: <i className="devicon-mysql-plain-wordmark skill__logo-icon"></i>,
+      title: "MySQL",
+    },
+    {
+      logo: <i className="devicon-mongodb-plain-wordmark skill__logo-icon"></i>,
+      title: "MongoDb",
+    },
+    {
+      logo: <i className="devicon-firebase-plain skill__logo-icon"></i>,
+      title: "Firebase",
+    },
+  ],
+  devops: [
+    {
+      logo: <i className="devicon-git-plain skill__logo-icon"></i>,
+      title: "Git",
+    },
+    {
+      logo: <i className="devicon-github-original skill__logo-icon"></i>,
+      title: "Github",
+    },
+    {
+      logo: <i className="devicon-gitlab-plain skill__logo-icon"></i>,
+      title: "Gitlab",
+    },
+    {
+      logo: <i className="devicon-githubactions-plain skill__logo-icon"></i>,
+      title: "Github Actions",
+    },
+    {
+      logo: <i className="devicon-docker-plain skill__logo-icon"></i>,
+      title: "Docker",
+    },
+  ],
+  testing: [
+    {
+      logo: <i className="devicon-jest-plain skill__logo-icon"></i>,
+      title: "Jest",
+    },
+    {
+      logo: <i className="devicon-cypressio-plain skill__logo-icon"></i>,
+      title: "Cypress",
+    },
+    {
+      logo: <i className="devicon-playwright-plain skill__logo-icon"></i>,
+      title: "Playwright",
+    },
+  ],
+  frameworks: [
+    {
+      logo: <i className="devicon-materialui-plain skill__logo-icon"></i>,
+      title: "Material UI",
+    },
+    {
+      logo: <i className="devicon-antdesign-plain skill__logo-icon"></i>,
+      title: "Ant Design",
+    },
+    {
+      logo: <i className="devicon-bootstrap-plain skill__logo-icon"></i>,
+      title: "Bootstrap",
+    },
+    {
+      logo: <i className="devicon-tailwindcss-original skill__logo-icon"></i>,
+      title: "Tailwind",
+    },
+  ],
 };
 
 export const EDUCATION: ResumeItem[] = [

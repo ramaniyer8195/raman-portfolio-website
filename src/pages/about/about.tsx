@@ -40,11 +40,9 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="skills">
-        <h3 className="section__subtitle subtitle__center">My Skills</h3>
+        <h3 className="section__subtitle subtitle__center">Tech Stack</h3>
 
-        <div className="skills__container grid">
-          <Skills />
-        </div>
+        <Skills />
       </section>
 
       <div className="separator"></div>
