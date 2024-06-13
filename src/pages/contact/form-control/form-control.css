@@ -1,0 +1,19 @@
+.form__control {
+  border: 1px solid var(--border-color);
+  background-color: var(--container-color);
+  color: var(--title-color);
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: var(--small-font-size);
+  transition: all 0.3s ease;
+}
+
+.form__control:focus {
+  border-color: var(--primary-color);
+}
+
+.textarea {
+  resize: none;
+  height: 160px;
+}
