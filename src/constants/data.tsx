@@ -13,6 +13,13 @@ import {
   ResumeItem,
   ResumeCategory,
 } from "../pages/about/resume-item/resume-item.interfaces";
+import Work1 from "../assets/project-1.jpeg";
+import Work2 from "../assets/project-2.jpg";
+import Work3 from "../assets/project-3.jpeg";
+import Work4 from "../assets/project-4.jpeg";
+import Work5 from "../assets/project-5.jpg";
+import Work6 from "../assets/project-6.jpg";
+import { PortfolioItem } from "../pages/portfolio/portfolio.interfaces";
 
 export const LINKS: Link[] = [
   {
@@ -302,5 +309,262 @@ export const EXPERIENCE: ResumeItem[] = [
     name: "Zeus Learning",
     description:
       "Enhanced educational programs with responsive designs, fixed bugs, and developed multiple modules using Javascript, BackboneJS and C#. Created tools and automation that significantly reduced manhours, leading to successful client outcomes.",
+  },
+];
+
+const PORTFOLIO_CONTENT = (
+  <>
+    <h1>Test Blog</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <p>
+      <b>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non
+        euismod diam, vitae feugiat orci
+      </b>
+      . <i>Donec malesuada aliquet lobortis</i>.
+      <u>Sed ut justo vel diam pretium egestas</u>.
+    </p>
+    <p>
+      <sup>Superscript </sup>and <sub>subscript </sub>support is also available,
+      <s>strikethrough </s>is available too
+    </p>
+    <div className="img__container">
+      <img
+        src="//images.ctfassets.net/6ov6xrm0hpns/1IF2otbXVhZloYXM6YI1b3/53025bd75f85cdb3d1c49c9e9384a2c4/image.png"
+        alt=""
+      />
+    </div>
+    <p>
+      <a href="https://www.google.com">
+        Phasellus vel velit non velit lacinia tincidunt
+      </a>
+      .
+    </p>
+    <ul>
+      <li>
+        <p>Phasellus porta turpis elit, et pretium felis aliquet vitae.</p>
+      </li>
+      <li>
+        <p>Sed commodo lobortis magna, ultricies suscipit libero.</p>
+      </li>
+      <li>
+        <p>
+          Nullam fringilla pretium urna, at imperdiet elit viverra sit amet.
+        </p>
+      </li>
+      <li>
+        <p>
+          Quisque laoreet, magna ut porttitor egestas, dui turpis convallis
+          massa, a auctor odio massa eget leo.
+        </p>
+      </li>
+    </ul>
+    <ol>
+      <li>
+        <p>Quisque consectetur pulvinar leo, et feugiat magna varius non.</p>
+      </li>
+      <li>
+        <p>
+          Proin suscipit, massa sed consectetur mollis, tortor neque fringilla
+          dolor, sed consectetur nisi nunc id eros.
+        </p>
+      </li>
+      <li>
+        <p>Quisque viverra velit sit amet felis pulvinar ornare.</p>
+      </li>
+    </ol>
+    <hr />
+    <blockquote>
+      <p>
+        Curabitur porttitor ex vitae erat mattis, quis scelerisque nisl
+        lobortis.
+      </p>
+    </blockquote>
+    <p>
+      Sed tincidunt mattis arcu, nec elementum purus. Duis felis risus, dictum
+      nec dolor blandit, laoreet laoreet sem. Etiam feugiat porta faucibus.
+      Vivamus sed turpis porta, aliquam urna ut, fringilla dolor. Suspendisse
+      elementum dui vel lectus euismod, non tristique dui eleifend. Etiam ac
+      nibh id ligula consequat fermentum lacinia id nisl. Nunc congue vel odio
+      vel placerat.
+    </p>
+    <p>
+      Phasellus ut arcu felis. Integer sit amet finibus metus, at venenatis
+      metus. Nulla at cursus ipsum. Aliquam auctor viverra diam vitae viverra.
+      Pellentesque et mi non dui accumsan semper. Aenean maximus risus nulla, ac
+      posuere ante euismod sed. Duis metus leo, mollis vitae malesuada a,
+      hendrerit eget ligula. Morbi dapibus quam et nulla rhoncus posuere.
+      Pellentesque accumsan tellus quis urna consectetur fringilla.
+    </p>
+    <p>
+      Sed turpis nisi, varius ut ligula vel, euismod interdum justo. Aenean
+      tempus justo ac semper feugiat. Aliquam eu laoreet turpis. Quisque et
+      efficitur urna. Maecenas diam libero, suscipit non cursus nec, varius ut
+      sem. Praesent malesuada feugiat erat, ac dignissim libero aliquet ut. Duis
+      purus risus, viverra nec luctus nec, pharetra id felis. Fusce ac velit
+      rhoncus, eleifend purus et, faucibus turpis. Suspendisse in lacus
+      vulputate diam volutpat cursus a et mauris. Fusce ut leo eget lacus
+      sodales iaculis id sed dui. Sed ultrices dui est. Cras lacinia, ligula vel
+      imperdiet volutpat, lorem tellus convallis augue, in laoreet felis lorem
+      vitae nunc. Class aptent taciti sociosqu ad litora torquent per conubia
+      nostra, per inceptos himenaeos.
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <th>
+            <p>Column 1</p>
+          </th>
+          <th>
+            <p>Column 2</p>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <p>Row 1</p>
+          </td>
+          <td>
+            <p>Row 1</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Row 2</p>
+          </td>
+          <td>
+            <p>Row 2</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Praesent mattis varius fringilla. Donec ac elementum dui, quis sagittis
+      ante. Mauris at congue nisl. Quisque sed tincidunt purus. Duis euismod,
+      quam at viverra placerat, nunc tortor dapibus sapien, sagittis faucibus
+      urna nisi eu augue. Aliquam non pulvinar neque. Integer semper congue
+      ligula, cursus congue purus rutrum vel. Quisque ac hendrerit tellus. Donec
+      vel sagittis libero. Suspendisse orci odio, facilisis sit amet semper sit
+      amet, rutrum a augue. Morbi sed scelerisque odio. Pellentesque habitant
+      morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    </p>
+  </>
+);
+
+export const PORTFOLIO: PortfolioItem[] = [
+  {
+    id: "1",
+    img: Work1,
+    title1: "Contact",
+    title2: "Book",
+    details: {
+      language: (
+        <>
+          {SKILLS["frontend"][4].logo}
+          {SKILLS["frontend"][3].logo}
+          {SKILLS["backend"][0].logo}
+          {SKILLS["backend"][1].logo}
+          {SKILLS["database"][1].logo}
+        </>
+      ),
+      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+    },
+    content: PORTFOLIO_CONTENT,
+  },
+  {
+    id: "2",
+    img: Work2,
+    title1: "Contact",
+    title2: "Book",
+    details: {
+      language: (
+        <>
+          {SKILLS["frontend"][4].logo}
+          {SKILLS["frontend"][3].logo}
+          {SKILLS["backend"][0].logo}
+          {SKILLS["backend"][1].logo}
+          {SKILLS["database"][1].logo}
+        </>
+      ),
+      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+    },
+    content: PORTFOLIO_CONTENT,
+  },
+  {
+    id: "3",
+    img: Work3,
+    title1: "Contact",
+    title2: "Book",
+    details: {
+      language: (
+        <>
+          {SKILLS["frontend"][4].logo}
+          {SKILLS["frontend"][3].logo}
+          {SKILLS["backend"][0].logo}
+          {SKILLS["backend"][1].logo}
+          {SKILLS["database"][1].logo}
+        </>
+      ),
+      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+    },
+    content: PORTFOLIO_CONTENT,
+  },
+  {
+    id: "4",
+    img: Work4,
+    title1: "Contact",
+    title2: "Book",
+    details: {
+      language: (
+        <>
+          {SKILLS["frontend"][4].logo}
+          {SKILLS["frontend"][3].logo}
+          {SKILLS["backend"][0].logo}
+          {SKILLS["backend"][1].logo}
+          {SKILLS["database"][1].logo}
+        </>
+      ),
+      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+    },
+    content: PORTFOLIO_CONTENT,
+  },
+  {
+    id: "5",
+    img: Work5,
+    title1: "Contact",
+    title2: "Book",
+    details: {
+      language: (
+        <>
+          {SKILLS["frontend"][4].logo}
+          {SKILLS["frontend"][3].logo}
+          {SKILLS["backend"][0].logo}
+          {SKILLS["backend"][1].logo}
+          {SKILLS["database"][1].logo}
+        </>
+      ),
+      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+    },
+    content: PORTFOLIO_CONTENT,
+  },
+  {
+    id: "6",
+    img: Work6,
+    title1: "Contact",
+    title2: "Book",
+    details: {
+      language: (
+        <>
+          {SKILLS["frontend"][4].logo}
+          {SKILLS["frontend"][3].logo}
+          {SKILLS["backend"][0].logo}
+          {SKILLS["backend"][1].logo}
+          {SKILLS["database"][1].logo}
+        </>
+      ),
+      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+    },
+    content: PORTFOLIO_CONTENT,
   },
 ];
