@@ -456,115 +456,61 @@ export const PORTFOLIO: PortfolioItem[] = [
   {
     id: "1",
     img: Work1,
-    title1: "Contact",
-    title2: "Book",
+    title: "Contact Book",
     details: {
-      language: (
-        <>
-          {SKILLS["frontend"][4].logo}
-          {SKILLS["frontend"][3].logo}
-          {SKILLS["backend"][0].logo}
-          {SKILLS["backend"][1].logo}
-          {SKILLS["database"][1].logo}
-        </>
-      ),
-      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+      language: ["React", "Typescript", "NodeJs", "Express", "MongoDb"],
+      preview: "http://www.google.com",
+      blogLink: "http://www.google.com",
     },
-    content: PORTFOLIO_CONTENT,
   },
   {
     id: "2",
     img: Work2,
-    title1: "Contact",
-    title2: "Book",
+    title: "Contact Book",
     details: {
-      language: (
-        <>
-          {SKILLS["frontend"][4].logo}
-          {SKILLS["frontend"][3].logo}
-          {SKILLS["backend"][0].logo}
-          {SKILLS["backend"][1].logo}
-          {SKILLS["database"][1].logo}
-        </>
-      ),
-      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+      language: ["React", "Typescript", "NodeJs", "Express", "MongoDb"],
+      preview: "http://www.google.com",
+      blogLink: "http://www.google.com",
     },
-    content: PORTFOLIO_CONTENT,
   },
   {
     id: "3",
     img: Work3,
-    title1: "Contact",
-    title2: "Book",
+    title: "Contact Book",
     details: {
-      language: (
-        <>
-          {SKILLS["frontend"][4].logo}
-          {SKILLS["frontend"][3].logo}
-          {SKILLS["backend"][0].logo}
-          {SKILLS["backend"][1].logo}
-          {SKILLS["database"][1].logo}
-        </>
-      ),
-      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+      language: ["React", "Typescript", "NodeJs", "Express", "MongoDb"],
+      preview: "http://www.google.com",
+      blogLink: "http://www.google.com",
     },
-    content: PORTFOLIO_CONTENT,
   },
   {
     id: "4",
     img: Work4,
-    title1: "Contact",
-    title2: "Book",
+    title: "Contact Book",
     details: {
-      language: (
-        <>
-          {SKILLS["frontend"][4].logo}
-          {SKILLS["frontend"][3].logo}
-          {SKILLS["backend"][0].logo}
-          {SKILLS["backend"][1].logo}
-          {SKILLS["database"][1].logo}
-        </>
-      ),
-      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+      language: ["React", "Typescript", "NodeJs", "Express", "MongoDb"],
+      preview: "http://www.google.com",
+      blogLink: "http://www.google.com",
     },
-    content: PORTFOLIO_CONTENT,
   },
   {
     id: "5",
     img: Work5,
-    title1: "Contact",
-    title2: "Book",
+    title: "Contact Book",
     details: {
-      language: (
-        <>
-          {SKILLS["frontend"][4].logo}
-          {SKILLS["frontend"][3].logo}
-          {SKILLS["backend"][0].logo}
-          {SKILLS["backend"][1].logo}
-          {SKILLS["database"][1].logo}
-        </>
-      ),
-      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+      language: ["React", "Typescript", "NodeJs", "Express", "MongoDb"],
+      preview: "http://www.google.com",
+      blogLink: "http://www.google.com",
     },
-    content: PORTFOLIO_CONTENT,
   },
   {
     id: "6",
     img: Work6,
-    title1: "Contact",
-    title2: "Book",
+    title: "Contact Book",
     details: {
-      language: (
-        <>
-          {SKILLS["frontend"][4].logo}
-          {SKILLS["frontend"][3].logo}
-          {SKILLS["backend"][0].logo}
-          {SKILLS["backend"][1].logo}
-          {SKILLS["database"][1].logo}
-        </>
-      ),
-      preview: <a href="http://www.google.com">Contact Book Preview</a>,
+      language: ["React", "Typescript", "NodeJs", "Express", "MongoDb"],
+      preview: "http://www.google.com",
+      blogLink: "http://www.google.com",
     },
-    content: PORTFOLIO_CONTENT,
   },
 ];

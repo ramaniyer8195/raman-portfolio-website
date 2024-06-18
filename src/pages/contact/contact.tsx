@@ -3,7 +3,6 @@ import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
   FaLinkedinIn,
   FaWhatsapp,
@@ -12,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import FormControl from "./form-control/form-control";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -55,7 +55,7 @@ const Contact = () => {
               <FaLinkedinIn />
             </a>
             <a href="#" className="contact__social-link">
-              <FaTwitter />
+              <FaXTwitter />
             </a>
             <a href="#" className="contact__social-link">
               <FaFacebookF />
