@@ -1,13 +1,12 @@
 export interface PortfolioItem {
   id: string;
   img: string;
-  title1: string;
-  title2: string;
+  title: string;
   details: PortfolioDetails;
-  content: JSX.Element;
 }
 
 export interface PortfolioDetails {
-  language: JSX.Element;
-  preview: JSX.Element;
+  language: string[];
+  preview: string;
+  blogLink: string;
 }
