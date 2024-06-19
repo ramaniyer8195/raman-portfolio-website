@@ -1,0 +1,27 @@
+.share__socials {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.share__social-link {
+  background-color: var(--container-color);
+  color: var(--title-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 44px;
+  transition: all 0.3s ease;
+}
+
+.share__social-link:hover {
+  background-color: var(--primary-color);
+}
+
+.share__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--weight-600);
+  margin-block: 24px;
+  text-align: center;
+}

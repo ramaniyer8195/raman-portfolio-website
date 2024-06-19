@@ -7,6 +7,7 @@ import Portfolio from "./pages/portfolio/portfolio";
 import Blog from "./pages/blog/blog";
 import Contact from "./pages/contact/contact";
 import BlogDetails from "./pages/blog-details/blog-details";
+import ScrollToTop from "./components/scroll-to-top/scroll-to-top";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="blog/:blogId" element={<BlogDetails />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
+      <ScrollToTop />
     </BrowserRouter>
   );
 }
