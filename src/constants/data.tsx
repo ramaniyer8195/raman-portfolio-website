@@ -20,6 +20,7 @@ import Work4 from "../assets/project-4.jpeg";
 import Work5 from "../assets/project-5.jpg";
 import Work6 from "../assets/project-6.jpg";
 import { PortfolioItem } from "../pages/portfolio/portfolio.interfaces";
+import { BlogItem } from "../pages/blog/blog.interfaces";
 
 export const LINKS: Link[] = [
   {
@@ -312,7 +313,7 @@ export const EXPERIENCE: ResumeItem[] = [
   },
 ];
 
-const PORTFOLIO_CONTENT = (
+const BLOG_CONTENT = (
   <>
     <h1>Test Blog</h1>
     <h2>Heading 2</h2>
@@ -512,5 +513,72 @@ export const PORTFOLIO: PortfolioItem[] = [
       preview: "http://www.google.com",
       blogLink: "http://www.google.com",
     },
+  },
+];
+
+export const BLOG_CATEGORIES: string[] = [
+  "All",
+  "Frontend",
+  "Backend",
+  "Database",
+  "Dev Ops",
+  "Testing",
+  "Frameworks",
+];
+
+export const BLOGS: BlogItem[] = [
+  {
+    id: "1",
+    img: Work1,
+    title: "Introducing Myself: An Aspiring React Developer",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus nec felis egestas ultricies. Vestibulum pellentesque turpis ac iaculis pellentesque. Mauris varius congue sapien vitae sollicitudin. Curabitur accumsan imperdiet ex orci aliquam.",
+    author: "Raman Iyer",
+    content: BLOG_CONTENT,
+    publishedAt: new Date(2024, 0, 8),
+  },
+  {
+    id: "2",
+    img: Work2,
+    title: "Essential Tech for Full-Stack MERN Developers: A Guide",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus nec felis egestas ultricies. Vestibulum pellentesque turpis ac iaculis pellentesque. Mauris varius congue sapien vitae sollicitudin. Curabitur accumsan imperdiet ex orci aliquam.",
+    author: "Raman Iyer",
+    content: BLOG_CONTENT,
+    publishedAt: new Date(2024, 1, 10),
+  },
+  {
+    id: "3",
+    img: Work3,
+    title: "React JS Basics: Everything You Need to Start",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus nec felis egestas ultricies. Vestibulum pellentesque turpis ac iaculis pellentesque. Mauris varius congue sapien vitae sollicitudin. Curabitur accumsan imperdiet ex orci aliquam.",
+    author: "Raman Iyer",
+    content: BLOG_CONTENT,
+    publishedAt: new Date(2024, 2, 5),
+  },
+  {
+    id: "4",
+    img: Work4,
+    title: "Node.js Basics: Introduction to Fundamentals",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus nec felis egestas ultricies. Vestibulum pellentesque turpis ac iaculis pellentesque. Mauris varius congue sapien vitae sollicitudin. Curabitur accumsan imperdiet ex orci aliquam.",
+    author: "Raman Iyer",
+    content: BLOG_CONTENT,
+    publishedAt: new Date(2024, 3, 19),
+  },
+  {
+    id: "5",
+    img: Work5,
+    title: "Express.js Basics: A Beginner's Guide",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus nec felis egestas ultricies. Vestibulum pellentesque turpis ac iaculis pellentesque. Mauris varius congue sapien vitae sollicitudin. Curabitur accumsan imperdiet ex orci aliquam.",
+    author: "Raman Iyer",
+    content: BLOG_CONTENT,
+    publishedAt: new Date(2024, 4, 2),
+  },
+  {
+    id: "6",
+    img: Work6,
+    title: "MongoDB 101: Beginner's Guide to Basics",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus nec felis egestas ultricies. Vestibulum pellentesque turpis ac iaculis pellentesque. Mauris varius congue sapien vitae sollicitudin. Curabitur accumsan imperdiet ex orci aliquam.",
+    author: "Raman Iyer",
+    content: BLOG_CONTENT,
+    publishedAt: new Date(2022, 5, 7),
   },
 ];

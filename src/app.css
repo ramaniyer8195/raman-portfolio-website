@@ -155,16 +155,16 @@ img {
   line-height: 60px;
 }
 
-.back_button {
+.back__button {
   margin-inline: 40px;
   padding: 15px 35px 15px 70px;
 }
 
-.back_button::before {
+.back__button::before {
   transform: translateX(-100%);
 }
 
-.back_button__icon {
+.back__button__icon {
   left: 0;
   right: unset;
 }
