@@ -1,0 +1,17 @@
+.blog__categories {
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 50px;
+}
+
+.button.button__categories {
+  padding: 5px;
+}
+
+.button__categories-active {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+}
+
+.blog__list {
+  grid-template-columns: repeat(2, 1fr);
+}
