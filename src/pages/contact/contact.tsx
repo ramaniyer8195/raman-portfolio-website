@@ -12,6 +12,7 @@ import {
 import { FiSend } from "react-icons/fi";
 import FormControl from "./form-control/form-control";
 import { FaXTwitter } from "react-icons/fa6";
+import { Tooltip } from "react-tooltip";
 
 const Contact = () => {
   return (
@@ -48,27 +49,71 @@ const Contact = () => {
           </div>
 
           <div className="contact__socials">
-            <a href="#" className="contact__social-link">
+            <a
+              href="https://github.com/ramaniyer8195"
+              className="contact__social-link"
+              data-tooltip-id="social-icon-tooltip"
+              data-tooltip-content="Github"
+              target="_blank"
+            >
               <FaGithub />
             </a>
-            <a href="#" className="contact__social-link">
+            <a
+              href="https://www.linkedin.com/in/raman-iyer/"
+              className="contact__social-link"
+              data-tooltip-id="social-icon-tooltip"
+              data-tooltip-content="LinkedIn"
+              target="_blank"
+            >
               <FaLinkedinIn />
             </a>
-            <a href="#" className="contact__social-link">
+            <a
+              href="https://x.com/RamanIyer8195"
+              className="contact__social-link"
+              data-tooltip-id="social-icon-tooltip"
+              data-tooltip-content="Twitter"
+              target="_blank"
+            >
               <FaXTwitter />
             </a>
-            <a href="#" className="contact__social-link">
+            <a
+              href="https://www.facebook.com/ramaniyer08"
+              className="contact__social-link"
+              data-tooltip-id="social-icon-tooltip"
+              data-tooltip-content="Facebook"
+              target="_blank"
+            >
               <FaFacebookF />
             </a>
-            <a href="#" className="contact__social-link">
+            <a
+              href="https://www.instagram.com/raman_0801/"
+              className="contact__social-link"
+              data-tooltip-id="social-icon-tooltip"
+              data-tooltip-content="Instagram"
+              target="_blank"
+            >
               <FaInstagram />
             </a>
-            <a href="#" className="contact__social-link">
+            <a
+              href="https://discord.gg/AkPHnGHAhK"
+              className="contact__social-link"
+              data-tooltip-id="social-icon-tooltip"
+              data-tooltip-content="Discord"
+              target="_blank"
+            >
               <FaDiscord />
             </a>
-            <a href="#" className="contact__social-link">
+            <a
+              href="https://wa.me/919819289445"
+              className="contact__social-link"
+              data-tooltip-id="social-icon-tooltip"
+              data-tooltip-content="WhatsApp"
+              target="_blank"
+            >
               <FaWhatsapp />
             </a>
+
+            <Tooltip id="social-icon-tooltip" />
           </div>
         </div>
 

@@ -48,16 +48,20 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="resume">
-        <h3 className="section__subtitle subtitle__center">
-          Education & Experience
-        </h3>
-        <div className="resume__container grid">
+        <h3 className="section__subtitle subtitle__center">Experience</h3>
+        <div className="resume__experience-container">
           <div className="resume__data">
             {EXPERIENCE.map((item) => {
               return <ResumeItem key={item.id} item={item} />;
             })}
           </div>
+        </div>
 
+        <div className="separator"></div>
+
+        <h3 className="section__subtitle subtitle__center">Education</h3>
+
+        <div className="resume__education-container">
           <div className="resume__data">
             {EDUCATION.map((item) => {
               return <ResumeItem key={item.id} item={item} />;

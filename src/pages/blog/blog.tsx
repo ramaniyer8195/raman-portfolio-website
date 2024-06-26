@@ -1,15 +1,16 @@
-import { MouseEvent, useState } from "react";
+// import { MouseEvent, useState } from "react";
 import "./blog.css";
-import { BLOG_CATEGORIES, BLOGS } from "../../constants/data";
+// import { BLOG_CATEGORIES, BLOGS } from "../../constants/data";
+import { BLOGS } from "../../constants/data";
 import BlogCard from "./blog-card/blog-card";
 
 const Blog = () => {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  // const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const handleTitleChange = (event: MouseEvent<HTMLButtonElement>) => {
-    const buttonName = event.currentTarget.name;
-    setSelectedCategory(buttonName);
-  };
+  // const handleTitleChange = (event: MouseEvent<HTMLButtonElement>) => {
+  //   const buttonName = event.currentTarget.name;
+  //   setSelectedCategory(buttonName);
+  // };
 
   return (
     <section className="blog section">
@@ -19,7 +20,7 @@ const Blog = () => {
 
       <div className="blog__container container">
         <div className="blog__categories grid">
-          {BLOG_CATEGORIES.map((category, idx) => (
+          {/* {BLOG_CATEGORIES.map((category, idx) => (
             <button
               name={category}
               className={`button button__categories ${
@@ -30,7 +31,7 @@ const Blog = () => {
             >
               {category}
             </button>
-          ))}
+          ))} */}
         </div>
 
         <div className="blog__list grid">
